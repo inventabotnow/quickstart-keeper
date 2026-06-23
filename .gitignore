@@ -1,0 +1,8 @@
+# quickstart-keeper repo — nothing machine-specific should be committed
+.DS_Store
+Thumbs.db
+node_modules/
+*.log
+.env
+.env.*
+!.env.example

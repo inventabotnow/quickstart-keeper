@@ -1,0 +1,15 @@
+{
+  "//": "Paste the SessionStart block into your PROJECT .claude/settings.json. It surfaces QUICKSTART.md automatically at the start of every session. The node -e command is cross-platform (Windows/macOS/Linux) and does nothing if the file is absent. Shell-specific alternatives are in the README.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"try{process.stdout.write('\\n===== QUICKSTART.md (read me first) =====\\n'+require('fs').readFileSync('QUICKSTART.md','utf8'))}catch(e){}\""
+          }
+        ]
+      }
+    ]
+  }
+}
