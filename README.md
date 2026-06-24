@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🚀 quickstart-keeper
+<img src="assets/banner.svg" alt="quickstart-keeper" width="100%">
+
+# quickstart-keeper
 
 ### A living, **transportable** project knowledge layer for [Claude Code](https://claude.com/claude-code) — memory that ships *with your repo on GitHub*.
 
@@ -300,6 +302,8 @@ quickstart-keeper/
 ├── SKILL.md                          # the skill definition (frontmatter + behavior)
 ├── README.md                         # this file
 ├── LICENSE                           # MIT
+├── assets/
+│   └── banner.svg                    # README banner
 ├── commands/
 │   └── quickstart.md                 # the /quickstart slash command
 ├── hooks/
